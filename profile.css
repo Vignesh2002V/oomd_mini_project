@@ -1,0 +1,687 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: rgb(245, 236, 236);
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: rgb(243, 235, 235);
+}
+
+.navbar a {
+    float: left;
+    font-size: 22px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 18px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 22px;
+    border: none;
+    outline: none;
+    color: rgb(0, 0, 0);
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+    background-color: rgb(255, 255, 255);
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ebdfdf;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    font-size: 18px;
+}
+
+.dropdown-content a:hover {
+    background-color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+/*________________profile photo section start*/
+
+#profile_photo {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    position: absolute;
+    right: 35px;
+    top: 14px;
+}
+
+
+/*profile photo section end*/
+
+
+/*________________profile pallet section start*/
+
+#profile_pallet {
+    border: 0px solid black;
+    border-radius: 15px;
+    box-shadow: 0px 3px 4px 0px grey;
+    width: 380px;
+    height: 450px;
+    position: relative;
+    top: 10px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    background-color: #f4f6f7;
+    transition: width 0.5s, height 0.5s;
+}
+
+
+/*profile pallet section end*/
+
+
+/*________________profile pallet section start*/
+
+#profile_pallet:hover {
+    border: 0px solid black;
+    border-radius: 15px;
+    box-shadow: 0px 3px 4px 0px grey;
+    width: 382px;
+    height: 470px;
+    position: relative;
+    top: 10px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    animation: profile_pallet 0s;
+    animation-fill-mode: forwards;
+}
+
+
+/*profile pallet section end*/
+
+@keyframes profile_pallet {
+    from {
+        background-color: #f4f6f7;
+    }
+    to {
+        background-color: #eaf1f3;
+    }
+}
+
+
+/*________________profile pallet details section start*/
+
+#in_pallet_profile {
+    height: 200px;
+    position: relative;
+    left: 90px;
+    top: 40px;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+}
+
+
+/*profile details section end*/
+
+
+/*________________event pallet start*/
+
+#event {
+    border: 0px solid black;
+    border-radius: 15px;
+    box-shadow: 0px 3px 4px 0px grey;
+    width: 380px;
+    height: 450px;
+    background-color: #f4f6f7;
+    position: absolute;
+    left: 1000px;
+    top: 350px;
+    text-align: center;
+    transition: width 0.5s, height 0.5s;
+}
+
+
+/*event pallet end*/
+
+
+/*________________event logo start*/
+
+.event_logo {
+    width: 230px;
+    height: 230px;
+    display: block;
+    margin-left: 100px;
+    margin-right: auto;
+}
+
+
+/*event logo end*/
+
+
+/*________________event pallet start*/
+
+#event:hover {
+    border: 0px solid black;
+    border-radius: 15px;
+    box-shadow: 0px 3px 4px 0px grey;
+    width: 381px;
+    height: 470px;
+    background-color: #f4f6f7;
+    position: absolute;
+    left: 1000px;
+    top: 350px;
+    text-align: center;
+    animation: event 1s;
+    animation-fill-mode: forwards;
+}
+
+
+/*event pallet end*/
+
+@keyframes event {
+    from {
+        background-color: #f4f6f7;
+    }
+    to {
+        background-color: #eaf1f3;
+    }
+}
+
+
+/*________________result pallet start*/
+
+#result {
+    border: 0px solid black;
+    border-radius: 15px;
+    box-shadow: 0px 3px 4px 0px grey;
+    width: 380px;
+    height: 450px;
+    background-color: #f4f6f7;
+    position: absolute;
+    top: 1250px;
+    right: 1000px;
+    transition: width 0.5s, height 0.5s;
+}
+
+
+/*result pallet end*/
+
+
+/*________________results_logo logo start*/
+
+.results_logo {
+    width: 230px;
+    height: 230px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*results_logo logo end*/
+
+
+/*________________result pallet start*/
+
+#result:hover {
+    border: 0px solid black;
+    border-radius: 15px;
+    box-shadow: 0px 3px 4px 0px grey;
+    width: 381px;
+    height: 470px;
+    background-color: #f4f6f7;
+    position: absolute;
+    top: 1250px;
+    right: 1000px;
+    animation: event 1s;
+    animation-fill-mode: forwards;
+}
+
+
+/*result pallet end*/
+
+@keyframes result {
+    from {
+        background-color: #f4f6f7;
+    }
+    to {
+        background-color: #eaf1f3;
+    }
+}
+
+
+/*________________faculty and courses pallet start*/
+
+#f_courses {
+    border: 0px solid black;
+    border-radius: 15px;
+    box-shadow: 0px 3px 4px 0px grey;
+    width: 380px;
+    height: 450px;
+    background-color: #f4f6f7;
+    position: absolute;
+    top: 750px;
+    right: 1000px;
+    transition: width 0.5s, height 0.5s;
+}
+
+
+/*faculty and courses pallet end*/
+
+
+/*________________faculty_logo logo start*/
+
+.faculty_logo {
+    width: 230px;
+    height: 230px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*faculty_logo end*/
+
+
+/*________________faculty and courses pallet start*/
+
+#f_courses:hover {
+    border: 0px solid black;
+    border-radius: 15px;
+    box-shadow: 0px 3px 4px 0px grey;
+    width: 381px;
+    height: 470px;
+    background-color: #f4f6f7;
+    position: absolute;
+    top: 750px;
+    right: 1000px;
+    animation: event 1s;
+    animation-fill-mode: forwards;
+}
+
+
+/*faculty and courses pallet end*/
+
+@keyframes f_courses {
+    from {
+        background-color: #f4f6f7;
+    }
+    to {
+        background-color: #eaf1f3;
+    }
+}
+
+
+/*________________campus pallet start*/
+
+#campus {
+    border: 0px solid black;
+    border-radius: 15px;
+    box-shadow: 0px 3px 4px 0px grey;
+    width: 380px;
+    height: 450px;
+    background-color: #f4f6f7;
+    position: absolute;
+    top: 640px;
+    left: 570px;
+    transition: width 0.5s, height 0.5s;
+}
+
+
+/*campus pallet end*/
+
+
+/*________________campus logo start*/
+
+.campus_logo {
+    width: 230px;
+    height: 230px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*campus logo end*/
+
+
+/*________________campus pallet start*/
+
+#campus:hover {
+    border: 0px solid black;
+    border-radius: 15px;
+    box-shadow: 0px 3px 4px 0px grey;
+    width: 381px;
+    height: 470px;
+    background-color: #f4f6f7;
+    position: absolute;
+    top: 640px;
+    left: 570px;
+    animation: event 1s;
+    animation-fill-mode: forwards;
+}
+
+
+/*campus pallet end*/
+
+@keyframes campus {
+    from {
+        background-color: #f4f6f7;
+    }
+    to {
+        background-color: #eaf1f3;
+    }
+}
+
+
+/*________________application pallet start*/
+
+#appl_form {
+    border: 0px solid black;
+    border-radius: 15px;
+    box-shadow: 0px 3px 4px 0px grey;
+    width: 380px;
+    height: 450px;
+    background-color: #f4f6f7;
+    position: absolute;
+    top: 1150px;
+    left: 570px;
+    transition: width 0.5s, height 0.5s;
+}
+
+
+/*application pallet end*/
+
+
+/*________________application logo start*/
+
+.application_logo {
+    width: 230px;
+    height: 230px;
+    display: block;
+    margin-left: 95px;
+    margin-right: auto;
+}
+
+
+/*application logo end*/
+
+
+/*________________application pallet start*/
+
+#appl_form:hover {
+    border: 0px solid black;
+    border-radius: 15px;
+    box-shadow: 0px 3px 4px 0px grey;
+    width: 381px;
+    height: 470px;
+    background-color: #f4f6f7;
+    position: absolute;
+    top: 1150px;
+    left: 570px;
+    animation: event 1s;
+    animation-fill-mode: forwards;
+}
+
+
+/*application pallet end*/
+
+@keyframes appl_form {
+    from {
+        background-color: #f4f6f7;
+    }
+    to {
+        background-color: #eaf1f3;
+    }
+}
+
+
+/*________________notes pallet start*/
+
+#notes {
+    border: 0px solid black;
+    border-radius: 15px;
+    box-shadow: 0px 3px 4px 0px grey;
+    width: 380px;
+    height: 450px;
+    background-color: #f4f6f7;
+    position: absolute;
+    top: 860px;
+    left: 1000px;
+    transition: width 0.5s, height 0.5s;
+}
+
+
+/*notes pallet end*/
+
+
+/*________________notes_logo logo start*/
+
+.notes_logo {
+    width: 230px;
+    height: 230px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*notes_logo end*/
+
+
+/*________________notes pallet start*/
+
+#notes:hover {
+    border: 0px solid black;
+    border-radius: 15px;
+    box-shadow: 0px 3px 4px 0px grey;
+    width: 381px;
+    height: 470px;
+    background-color: #f4f6f7;
+    position: absolute;
+    top: 860px;
+    left: 1000px;
+    animation: event 1s;
+    animation-fill-mode: forwards;
+}
+
+
+/*notes pallet end*/
+
+@keyframes notes {
+    from {
+        background-color: #f4f6f7;
+    }
+    to {
+        background-color: #eaf1f3;
+    }
+}
+
+
+/*________________notification pallet start*/
+
+#notification {
+    border: 0px solid black;
+    border-radius: 15px;
+    box-shadow: 0px 3px 4px 0px grey;
+    width: 380px;
+    height: 450px;
+    background-color: #f4f6f7;
+    position: absolute;
+    left: 90px;
+    top: 250px;
+    animation: notification 2s linear 2s infinite alternate;
+}
+
+
+/*notification pallet end*/
+
+@keyframes notification {
+    from {
+        left: 90px;
+    }
+    to {
+        left: 95px;
+    }
+}
+
+
+/*________________notification-conetnt start*/
+
+.notification-conetnt {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+/*notification-conetnt end*/
+
+
+/*________________academics pallet start*/
+
+#academics {
+    border: 0px solid black;
+    border-radius: 15px;
+    box-shadow: 0px 3px 4px 0px grey;
+    width: 380px;
+    height: 450px;
+    background-color: #f4f6f7;
+    position: absolute;
+    left: 1000px;
+    top: 1360px;
+    transition: width 0.5s, height 0.5s;
+}
+
+
+/*academics pallet end*/
+
+
+/*________________academics_logo logo start*/
+
+.academics_logo {
+    width: 230px;
+    height: 230px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*academics_logo logo end*/
+
+
+/*________________academics pallet start*/
+
+#academics:hover {
+    border: 0px solid black;
+    border-radius: 15px;
+    box-shadow: 0px 3px 4px 0px grey;
+    width: 381px;
+    height: 470px;
+    background-color: #f4f6f7;
+    position: absolute;
+    left: 1000px;
+    top: 1360px;
+    animation: event 1s;
+    animation-fill-mode: forwards;
+}
+
+
+/*academics pallet end*/
+
+@keyframes academics {
+    from {
+        left: 90px;
+    }
+    to {
+        left: 95px;
+    }
+}
+
+
+/*________________upcoming event pallet start*/
+
+#upcomin_event {
+    border: 0px solid black;
+    border-radius: 15px;
+    box-shadow: 0px 3px 4px 0px grey;
+    width: 380px;
+    height: 190px;
+    background-color: #f4f6f7;
+    position: absolute;
+    left: 570px;
+    top: 1640px;
+    transition: width 0.5s, height 0.5s;
+}
+
+
+/*upcoming event pallet end*/
+
+@keyframes upcomin_event {
+    from {
+        left: 90px;
+    }
+    to {
+        left: 95px;
+    }
+}
+
+
+/*________________upcoming event pallet start*/
+
+#upcomin_event:hover {
+    border: 0px solid black;
+    border-radius: 15px;
+    box-shadow: 0px 3px 4px 0px grey;
+    width: 400px;
+    height: 190px;
+    background-color: #f4f6f7;
+    position: absolute;
+    left: 570px;
+    top: 1640px;
+    animation: event 1s;
+    animation-fill-mode: forwards;
+}
+
+
+/*upcoming event pallet end*/
+
+p {
+    text-align: center;
+}

@@ -1,0 +1,56 @@
+*
+{
+	 margin: 0;
+	 padding: 10;
+     border-radius: 10px;
+}
+#class ul
+{
+	 list-style:none;
+	 z-index: 1;
+}
+#class ul li
+{
+	background-image: linear-gradient( rgba(216, 219, 226, 0.541), rgb(84, 133, 197));
+	 
+	 width: 200px;
+	 height:30px;
+	 text-align:center;
+	 line-height:30px;
+	 float:left;
+	 min-width: 160px;
+	 box-shadow: 0px 8px 16px 0px rgba(192, 61, 61, 0.2);
+	 z-index: 1;
+	 position: relative;
+     text-shadow: rgb(7, 17, 7);
+	 margin: 5px;
+	
+
+}
+#class{
+	font-size: 14px;
+	
+	
+}
+#class ul li a
+{
+	  text-decoration:none;
+	  color: black;
+	  display:block;
+}
+#class ul li a:hover
+{
+
+	background-image: linear-gradient(to left, rgba(216, 219, 226, 0.541), rgb(84, 133, 197));
+}
+#class ul ul
+{
+	  position:absolute;
+	  display: none;
+	 
+}
+#class ul li:hover > ul 
+{
+	  display:block;
+} 
+
